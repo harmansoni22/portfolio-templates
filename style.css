@@ -146,3 +146,112 @@ body, html {
 .portfolio:hover .portfolio-banner {
     transform: scale(1.03);
 }
+
+.about-page {
+    position: relative;
+    background:
+        radial-gradient(circle at 10% 10%, rgba(121, 143, 164, 0.15), transparent 45%),
+        radial-gradient(circle at 90% 90%, rgba(160, 189, 192, 0.12), transparent 35%),
+        linear-gradient(180deg, #ffffff 0%, #f5f8fb 100%);
+    padding-bottom: 4rem;
+}
+
+.about-shell {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about-eyebrow {
+    display: inline-block;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+    color: #5f7588;
+    background: #e6edf4;
+    border: 1px solid #cfdae6;
+    border-radius: 999px;
+    padding: 0.35rem 0.85rem;
+    margin-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-page .about-title {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    color: #1d2b39;
+}
+
+.about-intro {
+    max-width: 850px;
+    line-height: 1.8;
+    color: #314555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.about-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-feature-card {
+    border: 1px solid #d9e2eb;
+    border-radius: 14px;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(4px);
+    transition: transform 0.35s cubic-bezier(0.58, 0.00, 0.13, 1.00), box-shadow 0.35s cubic-bezier(0.58, 0.00, 0.13, 1.00);
+}
+
+.about-feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 35px rgba(40, 63, 86, 0.14);
+}
+
+.about-feature-card h2 {
+    font-size: 1.05rem;
+    margin-bottom: 0.55rem;
+    color: #243444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-feature-card p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #4b5f71;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-steps {
+    border-left: 4px solid #8ba2ba;
+    background: #f8fbfe;
+    border-radius: 0 12px 12px 0;
+    padding: 1rem 1.2rem;
+}
+
+.about-steps h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    color: #1f2f3f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-step-list {
+    margin-left: 1.2rem;
+    color: #2f4354;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .about-shell {
+        padding: 1.5rem 1.1rem 2.2rem;
+    }
+
+    .about-page .about-title {
+        font-size: clamp(28px, 6vw, 34px);
+    }
+}
