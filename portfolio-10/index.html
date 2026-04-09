@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi's Portfolio | Scandinavian Minimalist Design</title>
+    <meta name="description" content="A clean, minimalist portfolio with Scandinavian design principles, featuring horizontal scrolling sections and clean typography.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/Home.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Space+Mono&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="#hero">Aditi</a>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#hero" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-nav-toggle" aria-label="Toggle Mobile Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <button class="mobile-nav-close" aria-label="Close Mobile Navigation">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <ul>
+            <li>
+                <a href="#hero">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content fade-in">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <h1 class="hero-title">Aditi Sharma</h1>
+                    <h2 class="hero-subtitle">Student & Creative Problem Solver</h2>
+                    <p class="hero-text">A passionate student from Navodaya Vidhyalaya, Multhan (MP, India) with interests in technology, science, and creative arts. I believe in the power of simplicity and thoughtful design.</p>
+                    
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">16+</span>
+                            <span class="hero-stat-label">Projects</span>
+                        </div>
+                        
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">3+</span>
+                            <span class="hero-stat-label">Years Experience</span>
+                        </div>
+                        
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">95%</span>
+                            <span class="hero-stat-label">Academic Score</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image zoom-in">
+                    <img src="images/no-face-photo.png" alt="Aditi Sharma">
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span class="scroll-text">Scroll Down</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image slide-in-left">
+                    <img src="images/no-face-photo.png" alt="Aditi Sharma Portrait">
+                </div>
+                
+                <div class="about-content slide-in-right">
+                    <h2>About Me</h2>
+                    
+                    <div class="about-text">
+                        <p>I'm a 16-year-old student at Navodaya Vidhyalaya, Multhan with a passion for learning and exploring new ideas. I believe that education is not just about academics, but also about developing a well-rounded personality and diverse skill set.</p>
+                        
+                        <p>With a curious mind and creative approach, I enjoy solving complex problems and finding innovative solutions. I'm particularly interested in science, technology, mathematics, and arts, and I'm always looking for ways to combine these disciplines in my projects.</p>
+                        
+                        <p>When I'm not studying, you can find me reading books, experimenting with new technologies, or participating in school competitions. I'm always eager to learn and grow, both academically and personally.</p>
+                    </div>
+                    
+                    <div class="about-info">
+                        <div class="about-info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Age:</span> 16 Years
+                        </div>
+                        
+                        <div class="about-info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Grade:</span> 11th Standard
+                        </div>
+                        
+                        <div class="about-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location:</span> Multhan, MP, India
+                        </div>
+                        
+                        <div class="about-info-item">
+                            <i class="fas fa-language"></i>
+                            <span>Languages:</span> Hindi, English
+                        </div>
+                        
+                        <div class="about-info-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Interests:</span> Science, Art, Reading
+                        </div>
+                        
+                        <div class="about-info-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Achievements:</span> 8+ Awards
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn">Connect with Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Skills</h2>
+                <p>I'm constantly developing various skills - both technical and personal. Here's a glimpse of what I've learned so far.</p>
+            </div>
+            
+            <div class="skills-container fade-in">
+                <div class="skills-left">
+                    <div class="skills-category">
+                        <h3>Technical Skills</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Mathematics</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Physics</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Chemistry</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Computer Science</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="92"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Biology</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>Languages</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Hindi</span>
+                                <span class="skill-percentage">98%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="98"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">English</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Sanskrit</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-right">
+                    <div class="skills-category">
+                        <h3>Personal Skills</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Problem Solving</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Critical Thinking</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Leadership</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Teamwork</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Time Management</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3>Creative Skills</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Drawing</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="78"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Photography</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="70"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Content Writing</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress" data-percentage="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Horizontal Scrolling Gallery -->
+    <section class="horizontal-gallery">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Photo Gallery</h2>
+                <p>A glimpse into my academic journey and achievements. Scroll horizontally to see more.</p>
+            </div>
+            
+            <div class="horizontal-scroll fade-in">
+                <div class="scroll-content">
+                    <div class="scroll-item card-hover">
+                        <div class="scroll-image">
+                            <img src="images/no-face-photo.png" alt="Science Project">
+                        </div>
+                        <div class="scroll-text-content">
+                            <h3 class="scroll-title">Science Project</h3>
+                            <p class="scroll-desc">First place in the district science fair with my renewable energy project.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-item card-hover">
+                        <div class="scroll-image">
+                            <img src="images/no-face-photo.png" alt="Debate Competition">
+                        </div>
+                        <div class="scroll-text-content">
+                            <h3 class="scroll-title">Debate Competition</h3>
+                            <p class="scroll-desc">Representing my school in the regional debate championship.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-item card-hover">
+                        <div class="scroll-image">
+                            <img src="images/no-face-photo.png" alt="Math Olympiad">
+                        </div>
+                        <div class="scroll-text-content">
+                            <h3 class="scroll-title">Math Olympiad</h3>
+                            <p class="scroll-desc">Received certificate of excellence in the National Mathematics Olympiad.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-item card-hover">
+                        <div class="scroll-image">
+                            <img src="images/no-face-photo.png" alt="Art Exhibition">
+                        </div>
+                        <div class="scroll-text-content">
+                            <h3 class="scroll-title">Art Exhibition</h3>
+                            <p class="scroll-desc">My artwork was featured in the school's annual art exhibition.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-item card-hover">
+                        <div class="scroll-image">
+                            <img src="images/no-face-photo.png" alt="Sports Day">
+                        </div>
+                        <div class="scroll-text-content">
+                            <h3 class="scroll-title">Sports Day</h3>
+                            <p class="scroll-desc">Won gold medal in the 400m race at our annual sports meet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Projects</h2>
+                <p>A collection of my academic and personal projects that showcase my skills and interests.</p>
+            </div>
+            
+            <div class="projects-filter fade-in">
+                <button class="filter-btn active" data-category="all">All Projects</button>
+                <button class="filter-btn" data-category="science">Science</button>
+                <button class="filter-btn" data-category="technology">Technology</button>
+                <button class="filter-btn" data-category="art">Art & Literature</button>
+                <button class="filter-btn" data-category="environment">Environmental</button>
+            </div>
+            
+            <div class="projects-grid fade-in">
+                <div class="project-card" data-category="science">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Sustainable Energy Model">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Science</span>
+                            <span class="project-tag">Physics</span>
+                            <span class="project-tag">Energy</span>
+                        </div>
+                        <h3 class="project-title">Sustainable Energy Model</h3>
+                        <p class="project-description">A working model demonstrating how solar and wind energy can be harnessed efficiently for residential use.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="technology">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Smart Irrigation System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Technology</span>
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Agriculture</span>
+                        </div>
+                        <h3 class="project-title">Smart Irrigation System</h3>
+                        <p class="project-description">An automated irrigation system that uses soil moisture sensors to optimize water usage in agriculture.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="art">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Poetry Anthology">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Literature</span>
+                            <span class="project-tag">Poetry</span>
+                            <span class="project-tag">Writing</span>
+                        </div>
+                        <h3 class="project-title">Poetry Anthology</h3>
+                        <p class="project-description">A collection of original poems exploring themes of nature, identity, and growth. Published in school magazine.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="environment">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Local Biodiversity Documentation">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Environment</span>
+                            <span class="project-tag">Biology</span>
+                            <span class="project-tag">Research</span>
+                        </div>
+                        <h3 class="project-title">Local Biodiversity Documentation</h3>
+                        <p class="project-description">A research project documenting and cataloging the local flora and fauna in the Multhan region of Madhya Pradesh.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="science">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Water Purification System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Science</span>
+                            <span class="project-tag">Chemistry</span>
+                            <span class="project-tag">Environmental</span>
+                        </div>
+                        <h3 class="project-title">Water Purification System</h3>
+                        <p class="project-description">A low-cost water purification system using locally available materials, designed for rural communities.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="technology">
+                    <div class="project-image">
+                        <img src="images/no-face-photo.png" alt="Educational Mobile App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link tooltip" data-tooltip="View Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link tooltip" data-tooltip="View Gallery">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Technology</span>
+                            <span class="project-tag">Education</span>
+                            <span class="project-tag">App Design</span>
+                        </div>
+                        <h3 class="project-title">Educational Mobile App</h3>
+                        <p class="project-description">Concept design for a mobile application that helps students learn science concepts through interactive visualizations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>My Education</h2>
+                <p>My academic journey and educational experiences that have shaped my knowledge and skills.</p>
+            </div>
+            
+            <div class="education-timeline fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022-Present</div>
+                        <h3 class="timeline-title">Higher Secondary Education</h3>
+                        <h4 class="timeline-subtitle">Jawahar Navodaya Vidhyalaya, Multhan</h4>
+                        <p>Currently studying in 11th standard with Science stream (PCM). Maintaining an excellent academic record with focus on Mathematics and Science subjects.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019-2022</div>
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <h4 class="timeline-subtitle">Jawahar Navodaya Vidhyalaya, Multhan</h4>
+                        <p>Completed 10th standard with 95% marks. Received certificates of excellence in Mathematics, Science, and Hindi. Participated in various district-level competitions.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016-2019</div>
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Middle School Education</h3>
+                        <h4 class="timeline-subtitle">Jawahar Navodaya Vidhyalaya, Multhan</h4>
+                        <p>Joined Jawahar Navodaya Vidhyalaya through the entrance examination. Developed strong foundation in all subjects and discovered passion for science and mathematics.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2013-2016</div>
+                        <div class="timeline-dot"></div>
+                        <h3 class="timeline-title">Primary Education</h3>
+                        <h4 class="timeline-subtitle">Government Primary School, Multhan</h4>
+                        <p>Completed primary education with excellent grades. Developed interest in reading and creative activities. Recognized for perfect attendance and academic performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out if you want to connect with me or discuss potential collaborations.</p>
+            </div>
+            
+            <div class="contact-grid fade-in">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>aditi.sharma@example.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Jawahar Navodaya Vidhyalaya, Multhan, Madhya Pradesh, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="#" class="social-link tooltip" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link tooltip" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link tooltip" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link tooltip" data-tooltip="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <div class="form-success">Thank you for your message! I'll get back to you soon.</div>
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                            <div class="form-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email address">
+                            <div class="form-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Enter message subject">
+                            <div class="form-error"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-control" placeholder="Enter your message"></textarea>
+                            <div class="form-error"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">Aditi</div>
+                    <p class="footer-text">A student portfolio showcasing my academic journey, projects, and skills. Thank you for visiting my personal website.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">More Info</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Site Credits</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Aditi Sharma. All Rights Reserved.</p>
+                
+                <div class="contact-social">
+                    <a href="#" class="social-link tooltip" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link tooltip" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link tooltip" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link tooltip" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- Scripts -->
+    <script src="JS/Home.js"></script>
+</body>
+</html>

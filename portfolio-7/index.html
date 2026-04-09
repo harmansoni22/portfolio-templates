@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya's Portfolio | Navodaya Vidhyalaya</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/Home.css">
+</head>
+<body class="dark-mode">
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle-wrapper">
+        <button id="theme-toggle" aria-label="Toggle dark/light mode">
+            <div class="sun-moon">
+                <svg class="sun" fill="none" height="24" stroke-width="1.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg class="moon" fill="none" height="24" stroke-width="1.5" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">Priya</a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">Hello, I'm</p>
+                    <h1 class="name">Priya Sharma</h1>
+                    <h2 class="title">Environmental Science Enthusiast</h2>
+                    <p class="description">Dedicated to understanding and preserving our natural world through research, education, and sustainable practices.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="images/no-face-photo.png" alt="Priya Sharma" class="profile-img">
+                        <div class="leaf leaf-1"></div>
+                        <div class="leaf leaf-2"></div>
+                        <div class="leaf leaf-3"></div>
+                        <div class="leaf leaf-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-divider">
+                    <span></span>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/no-face-photo.png" alt="About Priya">
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>Name</h3>
+                            <p>Priya Sharma</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Age</h3>
+                            <p>16 Years</p>
+                        </div>
+                        <div class="stat">
+                            <h3>School</h3>
+                            <p>Navodaya Vidhyalaya</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Location</h3>
+                            <p>Multhan, MP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>My Journey</h3>
+                    <p>Growing up in the rural landscapes of Madhya Pradesh, I've always felt a deep connection with nature. From a young age, I've been fascinated by the intricate balance of ecosystems and how human activities impact our environment.</p>
+                    <p>As a student at Navodaya Vidhyalaya, I've had the opportunity to explore my passion for environmental science through various research projects and field studies. I'm particularly interested in sustainable agriculture, renewable energy, and water conservation techniques that can be implemented in rural communities.</p>
+                    <p>My goal is to pursue higher education in Environmental Science and contribute to solving the pressing environmental challenges that our world faces today.</p>
+                    <div class="interests">
+                        <h3>Areas of Interest</h3>
+                        <div class="interest-tags">
+                            <span>Environmental Conservation</span>
+                            <span>Sustainable Agriculture</span>
+                            <span>Renewable Energy</span>
+                            <span>Water Conservation</span>
+                            <span>Biodiversity</span>
+                            <span>Climate Change</span>
+                            <span>Environmental Education</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="section-divider">
+                    <span></span>
+                </div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="academic">Academic</button>
+                    <button class="tab-btn" data-tab="technical">Technical</button>
+                    <button class="tab-btn" data-tab="soft">Soft Skills</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab active" id="academic">
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Environmental Science</h3>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Biology</h3>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Chemistry</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Physics</h3>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Mathematics</h3>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="technical">
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Data Analysis</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Laboratory Techniques</h3>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Excel</h3>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>GIS Basics</h3>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <h3>Research Methodology</h3>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="soft">
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3>Communication</h3>
+                                <p>Effective verbal and written communication skills</p>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h3>Teamwork</h3>
+                                <p>Collaborative approach to group projects and research</p>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <h3>Critical Thinking</h3>
+                                <p>Analytical approach to problem-solving</p>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <h3>Organization</h3>
+                                <p>Strong planning and time management abilities</p>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-microscope"></i>
+                                </div>
+                                <h3>Attention to Detail</h3>
+                                <p>Meticulous approach to research and data collection</p>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <h3>Environmental Awareness</h3>
+                                <p>Conscious of ecological impact in decision-making</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="section-divider">
+                    <span></span>
+                </div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+                <button class="filter-btn" data-filter="conservation">Conservation</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="research">
+                    <div class="project-img">
+                        <div class="img-placeholder research-bg"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Water Quality Analysis</h3>
+                        <p>Research on water quality in local rivers and its impact on aquatic ecosystems and community health.</p>
+                        <div class="project-tags">
+                            <span>Water Conservation</span>
+                            <span>Data Analysis</span>
+                            <span>Field Research</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="conservation">
+                    <div class="project-img">
+                        <div class="img-placeholder conservation-bg"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>School Garden Initiative</h3>
+                        <p>Established an organic vegetable garden at school to promote sustainable agriculture practices.</p>
+                        <div class="project-tags">
+                            <span>Sustainable Agriculture</span>
+                            <span>Organic Farming</span>
+                            <span>Community Engagement</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="education">
+                    <div class="project-img">
+                        <div class="img-placeholder education-bg"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Environmental Awareness Campaign</h3>
+                        <p>Led awareness programs in neighboring villages about waste management and water conservation.</p>
+                        <div class="project-tags">
+                            <span>Environmental Education</span>
+                            <span>Community Outreach</span>
+                            <span>Public Speaking</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="research">
+                    <div class="project-img">
+                        <div class="img-placeholder research-bg-2"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Biodiversity Documentation</h3>
+                        <p>Documented local plant and animal species to create a comprehensive biodiversity record for our area.</p>
+                        <div class="project-tags">
+                            <span>Biodiversity</span>
+                            <span>Documentation</span>
+                            <span>Field Research</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="conservation">
+                    <div class="project-img">
+                        <div class="img-placeholder conservation-bg-2"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Solar Energy Project</h3>
+                        <p>Implemented small-scale solar energy solutions for rural households to reduce dependency on firewood.</p>
+                        <div class="project-tags">
+                            <span>Renewable Energy</span>
+                            <span>Sustainability</span>
+                            <span>Rural Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card" data-category="education">
+                    <div class="project-img">
+                        <div class="img-placeholder education-bg-2"></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Climate Change Workshop</h3>
+                        <p>Organized workshops for younger students to understand climate change impacts and mitigation strategies.</p>
+                        <div class="project-tags">
+                            <span>Climate Education</span>
+                            <span>Workshop Facilitation</span>
+                            <span>Youth Engagement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="section-divider">
+                    <span></span>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Present</div>
+                        <h3>Higher Secondary Education</h3>
+                        <h4>Jawahar Navodaya Vidyalaya, Multhan</h4>
+                        <p>Currently pursuing Science stream with Biology, Chemistry, Physics, and Mathematics as major subjects. Maintaining a GPA of 9.2 with distinction in Biology and Environmental Science projects.</p>
+                        <div class="timeline-badges">
+                            <span>Science Stream</span>
+                            <span>Environmental Focus</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <h3>Secondary Education</h3>
+                        <h4>Jawahar Navodaya Vidyalaya, Multhan</h4>
+                        <p>Completed 10th standard with 92% marks. Received recognition for science projects and environmental conservation initiatives.</p>
+                        <div class="timeline-badges">
+                            <span>Science Project Award</span>
+                            <span>Conservation Club Leader</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022</div>
+                        <h3>Certificate in Environmental Studies</h3>
+                        <h4>Online Course - National Geographic</h4>
+                        <p>Completed a comprehensive course on environmental conservation, biodiversity, and sustainable development practices.</p>
+                        <div class="timeline-badges">
+                            <span>Environmental Conservation</span>
+                            <span>Biodiversity</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>State-Level Science Exhibition</h3>
+                        <h4>Madhya Pradesh Science Exhibition</h4>
+                        <p>Participated in the state-level science exhibition with a project on water conservation techniques for rural areas.</p>
+                        <div class="timeline-badges">
+                            <span>2nd Prize</span>
+                            <span>Innovation Award</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="section-divider">
+                    <span></span>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out if you're interested in my projects, want to collaborate, or have questions about environmental initiatives.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>priya.sharma@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>Jawahar Navodaya Vidyalaya, Multhan, Madhya Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links contact-social">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="form-message" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Priya</a>
+                </div>
+                <p class="copyright">© 2023 Priya Sharma. All rights reserved.</p>
+                <div class="social-links footer-social">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="JS/Home.js"></script>
+</body>
+</html>

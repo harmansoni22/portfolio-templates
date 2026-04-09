@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya's Portfolio | Magazine-Style Editorial Portfolio</title>
+    <meta name="description" content="A magazine-style portfolio with editorial layout, typographic focus, and creative scrolling narrative.">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/Home.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-navbar">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="#hero">Kavya</a>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#hero" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-nav-toggle" aria-expanded="false" aria-controls="main-nav">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr-only">Menu</span>
+                </button>
+                
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content fade-in">
+                    <span class="overline">Student Portfolio</span>
+                    <h1 class="hero-title">Kavya Sharma</h1>
+                    <h2 class="hero-subtitle">Web Developer & Digital Artist</h2>
+                    <p class="hero-text large-text">A creative student passionate about merging technology and art. I build beautiful, functional digital experiences with a focus on storytelling and user engagement.</p>
+                    <a href="#contact" class="btn btn-lg">Get in Touch</a>
+                </div>
+                
+                <div class="hero-image zoom-in">
+                    <img src="images/no-face-photo.png" alt="Kavya Sharma - Web Developer & Digital Artist">
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span class="mono-text">Scroll Down</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title slide-in-left">
+                <span class="overline">About Me</span>
+                <h2>My Story</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image slide-in-left">
+                    <img src="images/no-face-photo.png" alt="Kavya Sharma Portrait">
+                </div>
+                
+                <div class="about-content slide-in-right">
+                    <p class="large-text"><span class="dropcap">H</span>ello! I'm Kavya, a 16-year-old student at Navodaya Vidhyalaya, Multhan (MP, India). I'm passionate about web development, digital design, and the intersection of technology and creativity.</p>
+                    
+                    <p>My journey in coding began two years ago when I first discovered HTML and CSS. Since then, I've been constantly learning and expanding my skills. I believe that great design isn't just about aesthetics—it's about creating meaningful experiences that connect with people.</p>
+                    
+                    <p>As a student, I'm dedicated to my academic pursuits while also developing practical skills that will shape my future career. I enjoy solving complex problems and finding innovative solutions that combine technical expertise with creative thinking.</p>
+                    
+                    <blockquote>
+                        Design is not just what it looks like and feels like. Design is how it works.
+                    </blockquote>
+                    
+                    <p>When I'm not coding or designing, you can find me reading science fiction novels, practicing digital illustration, or participating in school competitions. I believe in continuous growth and pushing the boundaries of what's possible.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item fade-in">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        
+                        <div class="stat-item fade-in">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Achievements</div>
+                        </div>
+                        
+                        <div class="stat-item fade-in">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-title fade-in">
+                <span class="overline">My Expertise</span>
+                <h2>Skills & Technologies</h2>
+                <p class="section-description">I'm constantly learning and expanding my skill set. Here are some of the areas I've focused on during my academic and personal development journey.</p>
+            </div>
+            
+            <div class="skills-tabs">
+                <div class="skills-tab active" data-target="technical">Technical Skills</div>
+                <div class="skills-tab" data-target="creative">Creative Skills</div>
+                <div class="skills-tab" data-target="academic">Academic Skills</div>
+            </div>
+            
+            <div class="skills-content active" data-content="technical">
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>HTML & CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Responsive Design</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="65"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>React Basics</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="50"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Version Control (Git)</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-content" data-content="creative">
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Digital Illustration</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>UI/UX Design</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Typography</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Content Creation</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Photography</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="60"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Animation Principles</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="55"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-content" data-content="academic">
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Mathematics</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Physics</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Computer Science</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>English Language</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="80"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Hindi Language</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item fade-in">
+                        <div class="skill-name">
+                            <span>Critical Thinking</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-percentage="85"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title fade-in">
+                <span class="overline">My Work</span>
+                <h2>Featured Projects</h2>
+                <p class="section-description">These projects showcase my technical skills, creative abilities, and problem-solving approach. Each project represents a unique challenge and learning experience.</p>
+            </div>
+            
+            <div class="project-filters">
+                <div class="project-filter active" data-filter="all">All Projects</div>
+                <div class="project-filter" data-filter="web">Web Development</div>
+                <div class="project-filter" data-filter="design">Design</div>
+                <div class="project-filter" data-filter="academic">Academic</div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-item fade-in" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=School+Website+Redesign" alt="School Website Redesign">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Web Development</div>
+                        <h3 class="project-title">School Website Redesign</h3>
+                        <p class="project-description">A complete redesign of our school website with a focus on improving user experience, accessibility, and responsive design.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=Digital+Magazine" alt="Digital Magazine">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Design</div>
+                        <h3 class="project-title">Digital Magazine</h3>
+                        <p class="project-description">An interactive digital magazine showcasing student achievements and school events with a focus on engaging layout and typography.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=E-Learning+Platform" alt="E-Learning Platform">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Web Development</div>
+                        <h3 class="project-title">E-Learning Platform</h3>
+                        <p class="project-description">A simple e-learning platform for students to access study materials, submit assignments, and track progress.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="academic">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=Science+Fair+Project" alt="Science Fair Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Academic</div>
+                        <h3 class="project-title">Science Fair Project</h3>
+                        <p class="project-description">An interactive web application demonstrating principles of physics through simulations and visualizations.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=Digital+Art+Portfolio" alt="Digital Art Portfolio">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Design</div>
+                        <h3 class="project-title">Digital Art Portfolio</h3>
+                        <p class="project-description">A collection of my digital illustrations and artworks showcasing various styles and techniques.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item fade-in" data-category="academic">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f5f5f5/333333?text=Mathematics+Visualization" alt="Mathematics Visualization">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Academic</div>
+                        <h3 class="project-title">Mathematics Visualization</h3>
+                        <p class="project-description">A web-based tool for visualizing mathematical concepts and equations to help students understand complex topics.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-eye"></i> View Project</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-title fade-in">
+                <span class="overline">My Learning Journey</span>
+                <h2>Education & Achievements</h2>
+                <p class="section-description">My academic journey and key milestones that have shaped my knowledge and skills.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Present</div>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <h4 class="timeline-subtitle">Navodaya Vidhyalaya, Multhan</h4>
+                        <p>Currently pursuing secondary education with a focus on Computer Science, Mathematics, and Physics. Maintained a consistent academic record with honors in various subjects.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022</div>
+                        <h3 class="timeline-title">District Science Competition Winner</h3>
+                        <h4 class="timeline-subtitle">Regional Science Exhibition</h4>
+                        <p>Awarded first place for developing an innovative environmental monitoring system that combines IoT sensors with web visualization.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021</div>
+                        <h3 class="timeline-title">Web Development Certification</h3>
+                        <h4 class="timeline-subtitle">Online Learning Platform</h4>
+                        <p>Completed a comprehensive web development course covering HTML, CSS, JavaScript, and responsive design principles, earning a certification with distinction.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">Primary Education</h3>
+                        <h4 class="timeline-subtitle">City Public School</h4>
+                        <p>Completed primary education with excellent academic performance. Received the "Best Student" award for academic excellence and extracurricular activities.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">Digital Art Competition</h3>
+                        <h4 class="timeline-subtitle">State Level Youth Festival</h4>
+                        <p>Secured second place in the state-level digital art competition, showcasing a piece that combined traditional Indian art with modern digital techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title fade-in">
+                <span class="overline">Get In Touch</span>
+                <h2>Contact Me</h2>
+                <p class="section-description">Have a project in mind or just want to say hello? Feel free to reach out to me through any of these channels.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info slide-in-left">
+                    <div class="contact-method">
+                        <h3><i class="fas fa-envelope"></i> Email</h3>
+                        <p><a href="mailto:kavya.sharma@example.com">kavya.sharma@example.com</a></p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3><i class="fas fa-phone"></i> Phone</h3>
+                        <p>+91 9876543210</p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                        <p>Navodaya Vidhyalaya<br>Multhan, Madhya Pradesh<br>India</p>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form slide-in-right">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-lg">Send Message</button>
+                        
+                        <div class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    Kavya Sharma
+                </div>
+                
+                <nav class="footer-links">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kavya Sharma. All rights reserved. | Designed with <i class="fas fa-heart"></i> for Navodaya Vidhyalaya</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- Scripts -->
+    <script src="JS/Home.js"></script>
+</body>
+</html>
