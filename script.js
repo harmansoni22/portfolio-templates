@@ -77,7 +77,8 @@ function loadPortfolios() {
         
         span.textContent = `Portfolio ${i}`;
 
-        a.href = `portfolio-${i}/index.html`;
+        const folderName = (i === 1 || i === 2) ? `Portfolio-${i}` : `portfolio-${i}`;
+        a.href = `${folderName}/index.html`;
         a.classList.add('portfolio');
         a.append(img, span);
 
